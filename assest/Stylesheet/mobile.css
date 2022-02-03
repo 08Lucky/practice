@@ -1,0 +1,69 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    nav a{
+        margin: 10px;           
+    }
+    nav button{
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+        padding: 28px 15px;
+    }
+    .image {
+        width: 100%; 
+        padding-left: 35px;  
+    }
+    .div1 img{
+        width: 80%;
+        height: 400px;
+        margin: 0px 10px;
+        
+    }
+    .image h2 {
+        margin-top: 15px;
+    }  
+    .image p {
+        font-size: 13px;
+    }
+    .image ol{
+        font-size: 14px;
+    }
+    .second {
+        flex-direction: column;
+    }
+    .topics{
+        width: 80%;
+        margin: 30px 30px;   
+        padding: 0 15px;
+        padding-bottom: 10px; 
+    }      
+    .topics p{
+        font-size: 14px;
+    } 
+    .topics img{
+        width: 90%;
+        height: 400px;
+    }
+    .new {
+        width: 85%;
+        height: 40px;
+        top: 450px;
+        left: 20px;
+    }
+  }
